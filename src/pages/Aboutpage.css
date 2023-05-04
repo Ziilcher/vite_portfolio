@@ -1,0 +1,57 @@
+.Aboutpage{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.Aboutpage h1{
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 50px;
+}
+
+.wrapper-about{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1,1fr);
+}
+
+.about-personal{
+    display: flex;
+    gap: 10px;
+}
+
+.personal-info{
+    list-style: none;
+    padding-right: 10px;
+}
+
+.right-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 0.5rem;
+}
+
+.card-exp{
+    border: 1px solid rgba(32, 32, 32, 0.6);
+    border-radius: 16px;
+    padding: 1.2rem;
+    font-size: 20px;
+}
+
+.Aboutpage::after{
+    margin: 2.5vh 0;
+    content: "";
+    width: 70%;
+    height: 2px;
+    background: black;
+}
+
+.wrapper-about h2{
+    margin-bottom: 20px;
+}
