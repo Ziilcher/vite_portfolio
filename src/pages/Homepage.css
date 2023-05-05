@@ -1,56 +1,49 @@
 .homepage{
-    display: flex;
-    align-items: center;
-    justify-content: center;
     height: 100vh;
-    width: 100%;
 }
 
 .hero{
-    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100%;
+    width: 100%;
 }
 
 .hero-img{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 30vw;
-    width: 20vw;
+    width: 250px;
+    height: 250px;
     border-radius: 30px;
     overflow: hidden;
 }
 
-.hero-img img{
-    height: 100%;
+.hero-info{
+    margin: 0 30px;
 }
 
-.hero-info {
-    margin: 0 2rem;
+.hero-content h1{
+    font-size: clamp(50%,5.5vw,var(--h1-font-size));
 }
 
-.hero-contact {
-    position: absolute;
-    top: 50%;
-    right: 50%;
-    font-size: 25px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0.3rem;
-    background: gray;
-    border-radius: 30px;
+.hero-content p{
+    font-size: clamp(50%,3vw,var(--normal-font-size));
 }
 
-.hero-contact i{
-    background: white;
-    border-radius: 30px;
-    margin: 0.5rem 0;
+.hero-content span{
+    color: var(--d-primary);
 }
 
-.hero-content {
-    font-size: clamp(20%, 2vw, 100%);
+@media (max-width: 760px){
+    .hero{
+        flex-direction: column-reverse;
+    }
+
+    .hero-img{
+        width: 350px;
+        height: 350px;
+        margin-bottom: 30px;
+    }
 }
