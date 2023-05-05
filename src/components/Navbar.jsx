@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './Navbar.css'
+import { NavLink } from 'react-router-dom'
 import { Link } from 'react-scroll'
 
 function Navbar() {
@@ -11,13 +12,13 @@ function Navbar() {
     
     return (
         <nav className="navbar">
-            <h1 className='logo'>Logo</h1>
+            <h1 className='logo'>PP</h1>
             <ul className= {IsOpen ? 'nav active open-menu' : 'nav active'}>
-                <Link to='homepage' spy={true} smooth={true} duration={500} className='nav-item'>home</Link>
-                <li className='nav-item'>about</li>
-                <li className='nav-item'>education</li>
-                <li className='nav-item'>skill</li>
-                <li className='nav-item'>contact</li>
+                <li className='nav-item'><NavLink to='home'>home</NavLink></li>
+                <li className='nav-item'><NavLink to='about'>about</NavLink></li>
+                <li className='nav-item'><NavLink to='education'>education</NavLink></li>
+                <li className='nav-item'><NavLink to='skill'>skill</NavLink></li>
+                <li className='nav-item'><NavLink to='contact'>contact</NavLink></li>
                 
             </ul>
             <i class='ri-menu-line' onClick={menu}></i>
