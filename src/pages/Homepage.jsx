@@ -1,9 +1,16 @@
 import './Homepage.css'
 import hero from '../assets/IMG_20211104_180149_232.jpg'
+import AOS from 'aos'
+import { useEffect } from 'react'
+
 function Homepage() {
+  useEffect(()=>{
+    AOS.init({duration:500})
+  },[])
+
   return (
     <section className="homepage">
-      <div className="hero">
+      <div className="hero" data-aos='fade'>
         <div className="hero-content hero-info">
           <h1>Front-end React <br />
           <span>Developer.</span></h1>
