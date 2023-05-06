@@ -1,6 +1,7 @@
 .navbar{
     position: fixed;
     display: flex;
+    background: var(--bg-dmode);
     width: 100%;
     justify-content: space-around;
     align-items: center;
@@ -13,19 +14,25 @@
     list-style: none;
     text-transform: uppercase;
     top: 0;
-    right: 0;
+    right: -100%;
 }
 
 .nav-item{
-    margin-right: 1rem;
-    padding: 6px 12px;
+    margin-right: 2rem;
     font-weight: 500;
     font-size: 1rem;
     cursor: pointer;
     transition: all 0.4s ease;
 }
 
-.nav-item:hover{
+.nav-item :hover{
+    outline: 0px solid transparent;
+    border-bottom: 2px solid var(--d-secondary);
+    transition: all 0.2 ease-in-out;
+    -webkit-transition: all 0.2 ease-in-out;
+}
+
+.active {
     border-bottom: 2px solid var(--d-secondary);
 }
 
@@ -40,6 +47,7 @@
     text-transform: uppercase;
     color: var(--d-secondary);
     font-size: 30px;
+    font-weight: var(--weight-600);
 }
 
 @media (max-width: 1023px){
@@ -49,10 +57,6 @@
 }
 
 @media (max-width: 760px){
-    .navbar{
-        justify-content: space-between;
-    }
-
     .navbar i{
         display: block;
     }
@@ -63,7 +67,6 @@
         width: 100%;
         height: 100vh;
         top: 100%;
-        right: -100%;
         padding: 16px 0px;
         flex-direction: column;
         background: rgba(34, 34, 34, 0.9);
@@ -71,7 +74,6 @@
         -webkit-backdrop-filter: blur(5px);
         justify-content: center;
         align-items: center;
-        transition: all 0.3s ease;
     }
 
     .nav-item{
@@ -79,7 +81,12 @@
         display: block;
     }
 
-    .open-menu{
+    #open-menu{
         right: 0;
+        transition: all 0.3s ease;
+    }
+
+    #close-menu{
+        transition: all 0.3s ease;
     }
 }
