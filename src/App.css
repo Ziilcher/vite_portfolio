@@ -9,7 +9,7 @@
     --text-dmode2: rgba(255, 255,255, 0.60);
     --text-dmode3: rgba(255, 255,255, 0.38);
     --panel-dmode: rgb(34, 34, 34);
-    --boder-dmode: rgba(255,255,255,0.09);
+    --border-dmode: rgba(255,255,255,0.09);
     --d-primary: #bb86fc;
     --d-secondary: #e91e63;
     --text-onsec: #121212;
@@ -69,4 +69,25 @@ li {
 
 img {
     max-width: 100%;
+}
+
+.grid{
+    display: grid;
+    gap: 30px;
+}
+
+.section{
+    padding-block: 150px;
+}
+
+.section-title{
+    font-size: var(--big-font-size);
+    font-weight: var(--weight-800);
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.container{
+    max-width: 1140px;
+    margin-inline: auto;
 }
