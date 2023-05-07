@@ -1,6 +1,6 @@
 import { education } from '../data'
 
-const EduTimline = () => {
+const EduTimeline = () => {
   return (
     <>
     {education.map(({year,school,index})=>{
@@ -15,4 +15,4 @@ const EduTimline = () => {
   )
 }
 
-export default EduTimline
+export default EduTimeline
