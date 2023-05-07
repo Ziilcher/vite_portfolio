@@ -61,3 +61,25 @@ export const stats = [
         title: 'Completed <br /> Projects',
     },
 ]
+
+export const education = [
+    {
+        id: 1,
+        year: '2017',
+        school: 'Montfort college chiangmai',
+    },
+
+    {
+        id: 2,
+        year: '2020',
+        school: "king mongkut's university of technology north bangkok",
+    },
+]
+
+export const experience = [
+    {
+        id: 1,
+        year: '2022-Present',
+        school: 'Montfort college chiangmai',
+    },
+]
