@@ -17,18 +17,20 @@ function Aboutpage() {
         </h2>
 
         <div className="about-container grid">
-          <div className="about-info">
-            <h3 className="section-subtitle">Personal Infos</h3>
 
-            <ul className='info-list grid'>
-              <Info />
-            </ul>
+          <div className="about-info">
+            <div className="info-wrapper">
+              <h3 className="section-subtitle">Personal Infos</h3>
+              <ul className='info-list grid'>
+                <Info />
+              </ul>
+            </div>
           </div>
 
           <div className="stats grid">
             <Stats />
-
           </div>
+
         </div>
       </section>
     </main>
