@@ -52,13 +52,13 @@ export const stats = [
     {
         id: 1,
         no: '1+',
-        title: 'years of Software Engineer <br /> Experience',
+        title: 'Years of Software Engineer Experience',
     },
 
     {
         id: 2,
         no: '5+',
-        title: 'Completed <br /> Projects',
+        title: 'Completed Projects',
     },
 ]
 
@@ -80,6 +80,6 @@ export const experience = [
     {
         id: 1,
         year: '2022-Present',
-        school: 'Montfort college chiangmai',
+        place: 'Abiz technology co. ltd',
     },
 ]
