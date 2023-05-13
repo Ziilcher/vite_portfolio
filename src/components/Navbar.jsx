@@ -22,15 +22,21 @@ function Navbar() {
     
     return (
         <nav className="navbar" data-aos='fade-down'>
-            <h1 className='logo'>PP</h1>
-            <ul className= {Active ? 'nav active' : 'nav'} id={IsOpen ? "open-menu":"close-menu"}>
-                <li className='nav-item'><NavLink to='/' spy={true} onClick={ActiveClick}>home</NavLink></li>
-                <li className='nav-item'><NavLink to='about' spy={true} onClick={ActiveClick}>about</NavLink></li>
-                <li className='nav-item'><NavLink to='education' spy={true} onClick={ActiveClick}>education</NavLink></li>
-                <li className='nav-item'><NavLink to='skill' spy={true} onClick={ActiveClick}>skill</NavLink></li>
-                <li className='nav-item'><NavLink to='contact' spy={true} onClick={ActiveClick}>contact</NavLink></li>
-                
-            </ul>
+            <div className='logo'>
+                <NavLink to='/'>
+                    <h1 id='logo'>PP</h1>
+                </NavLink>
+            </div>
+            <div className="nav-contain">
+                <ul className= {Active ? 'nav active' : 'nav'} id={IsOpen ? "open-menu":"close-menu"}>
+                    <li className='nav-item'><NavLink to='/' spy={true} onClick={ActiveClick}>home</NavLink></li>
+                    <li className='nav-item'><NavLink to='about' spy={true} onClick={ActiveClick}>about</NavLink></li>
+                    <li className='nav-item'><NavLink to='education' spy={true} onClick={ActiveClick}>education</NavLink></li>
+                    <li className='nav-item'><NavLink to='skill' spy={true} onClick={ActiveClick}>skill</NavLink></li>
+                    <li className='nav-item'><NavLink to='contact' spy={true} onClick={ActiveClick}>contact</NavLink></li>
+                    
+                </ul>
+            </div>
             <i class='ri-menu-line' onClick={menu}></i>
         </nav>
     )
