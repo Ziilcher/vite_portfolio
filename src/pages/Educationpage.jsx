@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import './Educationpage.css'
 import AOS from 'aos'
-import EduTimline from '../components/EduTimeline'
+import EduTimeline from '../components/EduTimeline'
 
 function Educationpage() {
   useEffect(()=>{
@@ -21,7 +21,7 @@ function Educationpage() {
             </div>
 
             <div className="tabcontent">
-                <EduTimline/>
+                <EduTimeline/>
             </div>
 
             {/* <div className="tabcontent">
