@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import './Educationpage.css'
 import AOS from 'aos'
-import EduTimline from '../components/EduTimline'
+import EduTimline from '../components/EduTimeline'
 
 function Educationpage() {
   useEffect(()=>{
