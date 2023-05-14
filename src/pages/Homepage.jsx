@@ -14,7 +14,7 @@ function Homepage() {
         <div className="hero-content hero-info">
           <h1>Front-end React <br />
           <span>Developer.</span></h1>
-          <p>Hi, I'm Passakorn Poomsophonmetha.<br />A junior and passionate Front-end React Developer. </p>
+          <p>{"Hi, I'm Passakorn Poomsophonmetha."}<br />A junior and passionate Front-end React Developer. </p>
         </div>
         <div className="hero-img hero-info">
           <img src= {hero} alt="hero" />
