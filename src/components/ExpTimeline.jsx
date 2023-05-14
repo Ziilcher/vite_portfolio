@@ -7,8 +7,8 @@ const ExpTimeline = () => {
         return(
             <li className="exp-item" key={index}>
                 <div className="content">
-                    <span className='year'>{year}<br /></span>
-                    <span className='place'>{place}</span>
+                    <span className='place'>{place}<br /></span>
+                    <span className='year'>{year}</span>
                 </div>
             </li>
         )

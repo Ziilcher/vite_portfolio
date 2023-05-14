@@ -7,8 +7,8 @@ const EduTimeline = () => {
       return (
         <li className="edu-item" key={index}>
           <div className="content">
-            <span className='year'>{year}<br/></span>
-            <span className='place'>{school}</span>
+            <span className='place'>{school}<br/></span>
+            <span className='year'>{year}</span>
           </div>
         </li>
       )
