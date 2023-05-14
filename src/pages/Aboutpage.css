@@ -13,10 +13,15 @@
     margin-bottom: 32px;
 }
 
+.info-wrapper{
+    row-gap: 0px;
+}
+
 .section-subtitle{
     font-size: var(--h3-font-size);
     font-weight: var(--weight-600);
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+    justify-self: left;
 }
 
 .info-list .info-title,

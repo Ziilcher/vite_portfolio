@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import { useEffect } from 'react'
 import Info from '../components/Info'
 import Stats from '../components/Stats'
 import './Aboutpage.css'
@@ -19,7 +19,7 @@ function Aboutpage() {
         <div className="about-container grid">
 
           <div className="about-info">
-            <div className="info-wrapper">
+            <div className="info-wrapper grid">
               <h3 className="section-subtitle">Personal Infos</h3>
               <ul className='info-list grid'>
                 <Info />
