@@ -83,3 +83,35 @@ export const experience = [
         place: 'Abiz technology co. ltd',
     },
 ]
+
+export const skillFront = [
+    {
+        id: 1,
+        title: 'HTML',
+        level: 'Basic',
+    },
+
+    {
+        id: 2,
+        title: 'CSS',
+        level: 'Intermediate',
+    },
+
+    {
+        id: 3,
+        title: 'JavaScript',
+        level: 'Basic',
+    },
+
+    {
+        id: 4,
+        title: 'React',
+        level: 'Basic',
+    },
+
+    {
+        id: 5,
+        title: 'Git',
+        level: 'Basic',
+    }
+]
