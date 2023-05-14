@@ -1,4 +1,3 @@
-import React from 'react'
 import { personalInfo } from '../data'
 import parser from 'html-react-parser'
 
