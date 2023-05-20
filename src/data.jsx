@@ -115,3 +115,17 @@ export const skillFront = [
         level: 'Basic',
     }
 ]
+
+export const contactinfo = [
+    {
+        id: 1,
+        title: 'Email',
+        value: 'kla.passakorn@hotmail.com'
+    },
+
+    {
+        id: 2,
+        title: 'Phone',
+        value: '+66954525462'
+    },
+]
