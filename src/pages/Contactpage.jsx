@@ -22,17 +22,17 @@ function Contactpage() {
 
                     <div className="input-box">
                       <input type="email" className="input" required/>
-                      <label for="">Email</label>
+                      <label for=''>Email</label>
                     </div>
 
                     <div className="input-box">
                       <input type="tel" className="input" required/>
-                      <label for="">Phone</label>
+                      <label for=''>Phone</label>
                     </div>
 
                     <div className="input-box">
                       <textarea name="" className="input" required id="message" cols="30" rows="10"></textarea>
-                      <label for="">Message</label>
+                      <label for=''>Message</label>
                     </div>
 
                     <input className="submit-btn" type="submit" value="SUBMIT"/>
