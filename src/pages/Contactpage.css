@@ -95,7 +95,6 @@ textarea.input{
     .contact-container{
         grid-template-columns: repeat(1, 1fr);
     }
-
     .right-contact{
         display: none;
     }
