@@ -1,6 +1,7 @@
 import { useEffect } from "react"
 import AOS from "aos"
 import './Contactpage.css'
+import img from '../assets/chase-baker-7juQqGhDp6o-unsplash.jpg'
 
 function Contactpage() {
   useEffect(()=>{
@@ -39,7 +40,7 @@ function Contactpage() {
                 </form>
                 
                 <div className="right-contact">
-                    <div>image</div>
+                    <img src={img} alt="some_img" />
                 </div>                
             </div>
         </section>

@@ -80,6 +80,14 @@ textarea.input{
     scale: 1.1;
 }
 
+.right-contact{
+    background-color: var(--bg-dmode);
+}
+
+.right-contact img{
+    max-width: 600px;
+    mix-blend-mode: screen;
+}
 @media (max-width: 1023px){
     .left-contact{
         max-width: 600px;
